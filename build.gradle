@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        springBootVersion = '2.0.0.RELEASE'
+        springBootVersion = '2.0.1.RELEASE'
         springCloudConnectorsVersion = '2.0.1.RELEASE'
     }
 
@@ -46,7 +46,6 @@ dependencies {
     compile "org.springframework.cloud:spring-cloud-cloudfoundry-connector:${springCloudConnectorsVersion}"
 
     // JPA Persistence
-    compile "org.apache.commons:commons-dbcp2"
     runtime "com.h2database:h2"
     runtime "mysql:mysql-connector-java"
     runtime "org.postgresql:postgresql"
